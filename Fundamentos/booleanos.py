@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
 
 # Declaracao de variaveis
-n1 = 3
-n2 = 4
+n1 = float(input('Digite a nota da prova: '))
+n2 = float(input('Digite a nota do trabalho: '))
 nota = n1 + n2
 
-# Imprimindo resultado na tela, convertendo o inteiro p/ string.
-# Pois não é possivel concatenar inteiro com string.
-print('Nota final: ' + str(nota))
-
-# Booleano True e False
-if nota >= 5:
-    nota = True
-    print(nota)
+# Boolean True e False
+if nota / 2 >= 5:
+    situacao = True
+    print(nota / 2)
 
 else:
-    nota = False
-    print(nota)
+    situacao = False
+    print(nota / 2)
+
+print(situacao)
