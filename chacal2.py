@@ -1,1 +1,0 @@
-print ("salve \o/")
