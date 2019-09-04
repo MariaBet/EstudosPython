@@ -11,3 +11,4 @@ print('Nota final: ' + str(n1+n2))
 # Booleano
 if str(n1+n2) >= 5:
     True
+dad
