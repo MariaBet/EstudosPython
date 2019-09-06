@@ -6,12 +6,8 @@ n2 = float(input('Digite a nota do trabalho: '))
 nota = n1 + n2
 
 # Boolean True e False
-if nota / 2 >= 5:
-    situacao = True
-    print(nota / 2)
+if (nota / 2 >= 5) == True:
+    print('Aprovado')
 
 else:
-    situacao = False
-    print(nota / 2)
-
-print(situacao)
+    print('Reprovado')
