@@ -1,13 +1,13 @@
-#Linguagem Python
+# Linguagem Python
 
-##Guia para o Estudo da linguagem python
+## Guia para o Estudo da linguagem python
 Aprendendo a linguagem em grupo, de maneira simples e intuitiva
 
 
 
 ![logo python](https://github.com/MariaBet/EstudosPython/blob/master/2416585_0.jpg)
 
-###bibliografias consultadas 
+### Bibliografias consultadas 
 [Curso python essencials cisco](https://www.netacad.com/pt-br)
 
 [excript](http://excript.com/python/indentacao-python.html)
