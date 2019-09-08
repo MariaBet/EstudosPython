@@ -1,0 +1,61 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+Boolean
+tipo Bool
+valores boleanos: True e False
+operadores lógicos
+exemplo
+
+a = 1
+b = 2
+c = a < b
+d = a > b
+e = a == b
+print("valor de c: ",c)
+print("valor de d: ",d)
+print("valor de e: ",e)
+
+link do exemplo aula  <https://panda.ime.usp.br/aulasPython/static/aulasPython/index.html>
+
+
+1 - Operador and¶
+O and opera sobre dois valores, ficando no meio deles.
+
+Seu retorno será True, se os dois forem True.
+
+Do contrário, retornará False.
+
+True and True
+true
+
+True and False
+False
+
+2- Operador or
+O or também opera sobre dois valores.
+
+Se pelo menos um for True, retorna True.
+
+Senão, o retorno é False.
+True or False
+True
+
+True or True
+true
+
+False or False
+False
+
+3 - Operador not
+Já o not trabalha só com um valor.
+
+O que ele faz é inverter o valor, isto é, False vira True e vice-versa.
+
+not True
+False
+
+not False
+True
+
+link <https://github.com/CaioDallaqua/Curso_Python_3/blob/master/Aula%2011%20-%20Tipo%20boolean%20e%20operadores%20lógicos%20.ipynb>
