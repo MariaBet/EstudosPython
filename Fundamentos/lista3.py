@@ -3,4 +3,4 @@
 
 carros = []
 nome = input("Digite o modelo do carro: ")
-print("nome")
+print(nome)
