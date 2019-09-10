@@ -5,7 +5,7 @@ Aprendendo a linguagem em grupo, de maneira simples e intuitiva
 
 
 
-![logo python](https://github.com/MariaBet/EstudosPython/blob/master/2416585_0.jpg)
+![logo python](https://github.com/MariaBet/EstudosPython/blob/master/Fundamentos/Logo.jpg)
 
 ### Bibliografias consultadas
 [Curso python essencials cisco](https://www.netacad.com/pt-br)
