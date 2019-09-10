@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # Listas
-carros=['ferrari','uno','gol','palio','gipe','troller']
+carros=['ferrari','uno','gol','palio','jeep','troller']
 
 carros.sort()  # classifica a lista crescente por padrao
 print (carros)
