@@ -5,12 +5,12 @@
 # Dicionário
 # Um dicionário é  mutável e indexada.
 # No Python, os dicionários são escritos com colchetes e possuem valores.
-
+Floresta = input("Digite no dicionario: ")
 Floresta = {
     "Arvore": "Ipe",
     "Felino": "onca",
     "Madeira": "Sucupira",
-    "Aves" : "Sabia",
+    "Aves": "Sabia",
     "Lepidopera": "Borboleta"
 }
-print(Floresta)
+print("Sim, se encontra na floresta")
