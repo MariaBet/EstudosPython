@@ -17,7 +17,7 @@ print(diversos[1])
 print(diversos[2])
 print(diversos[3])
 
-# Percorrendo uma lista de forma mais simples e mais elegante rsrs
+# Percorrendo uma lista de forma mais simples e elegante rsrs
 linux = ['redhat', 'centos', 'debian', 'fedora', 'opensuse', 'arch']
 for distro in linux:
     print (distro)
