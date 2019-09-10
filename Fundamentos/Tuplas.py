@@ -9,5 +9,5 @@ print (computador[2:5])  #leitura em intervalos- 3, 4 e 5º item
 
 
 modelo = ('Dell', 'Samsung', 'Itautec', 'Lenovo', 'Positivo')
-for fabricante in modelo     # percorrer itens na tupla
+for fabricante in modelo:     # percorrer itens na tupla
   print(fabricante)
