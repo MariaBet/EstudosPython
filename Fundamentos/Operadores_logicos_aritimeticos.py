@@ -21,7 +21,7 @@ m = 12
 print(m < 6 or m > 9)
 
 t = 20
-print(not(t > 22 and t < 24)) # retorna true -verificar
+print(not(t > 22 and t < 24))  # retorna true -verificar
 
 # operadores aritimeticos
 
