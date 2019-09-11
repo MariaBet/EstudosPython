@@ -1,8 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 """
-texto extraido do w3schools <https://www.w3schools.com/python/python_datatypes.asp>
-O Python possui os seguintes tipos de dados embutidos por padrão, nestas categorias:
+texto extraido do w3schools
+<https://www.w3schools.com/python/python_datatypes.asp>
+O Python possui os seguintes tipos de dados embutidos por padrão,
+nestas categorias:
 Tipo de texto:	str
 Tipos numéricos:	int, float, complex
 Tipos de sequência:	list, tuple, range
