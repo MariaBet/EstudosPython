@@ -44,4 +44,4 @@ print(y)
 
 # operadores de associacao
 floresta = ("Cerrado", "Caatinga", "Campo")
-print("Cerrado" in floresta) # retorna true
+print("Cerrado" in floresta)   # retorna true
