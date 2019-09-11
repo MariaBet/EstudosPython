@@ -2,9 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
-# Dicionário
-# Um dicionário é  mutável e indexada.
-# No Python, os dicionários são escritos com colchetes e possuem valores.
+"""
+Dicionário
+Um dicionário é  mutável e indexada.
+No Python, os dicionários são escritos com colchetes e possuem valores.
+"""
 
 Floresta = input("Digite no dicionario: ")
 print("Sim, se encontra na floresta")
