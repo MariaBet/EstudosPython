@@ -17,6 +17,6 @@ Floresta = {
     "Aves": "Sabia",
     "Lepidopera": "Borboleta"
 }
-Floresta ["Pequi"] = "Brasilense"
+Floresta["Pequi"] = "Brasilense"
 for x in Floresta.values():  # imprimi cada nome da lista
     print(x)
