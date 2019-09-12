@@ -7,8 +7,8 @@
 contatos = {}
 
 # Fazendo input no dicionario, indicando chave e valor.
-chave = input("Digite uma chave para dicionario: ")
-valor = input("Digite um valor para a chave do dicionaio: ")
+chave = input("Digite um nome para dicionario: ")
+valor = input("Digite um numero de telefone para o dicionario: ")
 
 
 while valor != '0':
@@ -25,5 +25,6 @@ while valor != '0':
     valor = input("Digite um valor para a chave do dicionaio: ")
 
 print(contatos)
+print("Se encontram na Agenda agora")
 
 # Operadores in e not in
