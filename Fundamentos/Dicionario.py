@@ -18,5 +18,5 @@ Floresta = {
     "Lepidopera": "Borboleta"
 }
 Floresta["Pequi"] = "Brasilense"
-for x in Floresta.values():  # imprimi cada nome da lista
-    print(x)
+for x in Floresta.values():
+    print(x)       # imprimi cada nome da lista que corresponde ao x
