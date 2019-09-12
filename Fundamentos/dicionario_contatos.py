@@ -21,8 +21,8 @@ while valor != '0':
     # Imprimindo dicionario contatos
     print(contatos)
 
-    chave = input("Digite uma chave para dicionario: ")
-    valor = input("Digite um valor para a chave do dicionaio: ")
+    chave = input("Digite um nome para dicionario: ")
+    valor = input("Digite um numero de telefone para o dicionario: ")
 
 print(contatos)
 print("Se encontram na Agenda agora")
