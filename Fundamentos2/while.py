@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-loop for usando o range que define quantidade valores
+while
 """
 numero_da_sorte = 33
 tentativa = 5
@@ -15,6 +15,6 @@ while tentativa > 0:
         break
     else:
         print("Voce errou nao recebeu nenhum valor" '\n')
-    tentativa = tentativa - 1
+    tentativa -= 1
 
 print("Fim da sorte!")
