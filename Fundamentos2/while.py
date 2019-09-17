@@ -4,14 +4,17 @@
 """
 loop for usando o range que define quantidade valores
 """
-numero_da_sorte = 0
+numero_da_sorte = 33
+tentativa = 5
 
-while numero_da_sorte != 33:
+while tentativa > 0:
+    print("Tentativa: ", tentativa)
     numero_da_sorte = int(input("Digite um numero da sorte: "))
     if numero_da_sorte == 33:
         print("Voce acertou, seu premio eh de R$1000,00 " '\n')
         break
     else:
         print("Voce errou nao recebeu nenhum valor" '\n')
+    tentativa = tentativa - 1
 
 print("Fim da sorte!")
