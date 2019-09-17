@@ -12,6 +12,7 @@ for tentativas in range(5):
     numero_da_sorte = int(input("Digite um numero da sorte: "))
     if numero_da_sorte == 33:
         print("Voce acertou, seu premio eh de R$1000,00 " '\n')
+        break
     elif numero_da_sorte != 33:
         print("Voce errou nao recebeu nenhum valor" '\n')
 
