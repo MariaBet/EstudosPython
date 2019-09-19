@@ -37,3 +37,7 @@ def soma(b, e):
 
 print(soma(28, 33))
 print(soma(-28, 33))
+
+
+# trechos de codigos retirados do
+# https://docs.python.org/3/tutorial/controlflow.html#defining-functions
