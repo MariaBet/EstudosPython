@@ -1,4 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-while False:
-    pass
+
+
+# pass
+for y in range(100):
+        print(y)
+        if y > 5:
+            pass
+        else:
+            print("Parou")
+        print("Please passe daqui")
