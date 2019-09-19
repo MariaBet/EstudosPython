@@ -14,9 +14,9 @@ while tentativa > 0:
     if numero_da_sorte == 33:
         print("Voce acertou, seu premio eh de R$1000,00 " '\n')
         break
-    elif numero_da_sorte >= 90:
+    elif numero_da_sorte >= 60:
         print("Digite um numero menor, por favor: ")
-        continue
+        # continue
     else:
         print("Voce errou nao recebeu nenhum valor" '\n')
 
