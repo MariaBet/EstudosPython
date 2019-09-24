@@ -15,12 +15,12 @@ def print_somente(nome, idade):
     print("Meu nome eh: ", nome, "Minha idade eh: ", idade, '\n')
 
 
-print_somente("Eduardo" '\n', 33, sep='')
+print_somente("Eduardo" '\n', 33)
 
 
-def print_lista(*membros):
-    for lista in membros:
-        print("Esse membro está na comunidade: ", lista)
+def print_convocados(*membros):
+    for convocados in membros:
+        print("Esse membro está na comunidade: ", convocados)
 
 
-print_lista("Monique", "Maria Betania", "Eduardo Barbosa", "Eduardo Campacci")
+print_convocados("Monique", "Maria Betania", "Eduardo", "Eduardo Campacci")
