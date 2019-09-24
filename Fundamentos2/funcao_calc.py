@@ -2,8 +2,11 @@
 # -*- coding: utf-8 -*-
 
 
-def soma (n1, n2):
-    print('A soma é.: ',n1+n2)
+def soma(n1, n2):
+    soma1 = int(input("Digite um numero para somar: "))
+    soma2 = int(input("Digite o segundo numero para somar: "))
+    print('A soma é.: ', n1 + n2)
+
 
 def subtracao (n1, n2):
     print('A subtração é.: ',n1-n2)
