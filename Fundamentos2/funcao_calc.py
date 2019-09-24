@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 """ Funções """
-
 def soma(n1, n2):
     soma1 = int(input("Digite um numero para somar: "))
     soma2 = int(input("Digite o segundo numero para somar: "))
