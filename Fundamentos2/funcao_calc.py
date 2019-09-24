@@ -2,12 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """ Funções """
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 269330ba9f5793bd58eeb6bfcb0265d5964ab36c
-def soma(n1, n2):
     print('A soma é.: ', n1 + n2)
 
 def subtracao(n1, n2):
