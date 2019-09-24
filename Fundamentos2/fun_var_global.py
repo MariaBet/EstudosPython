@@ -22,6 +22,5 @@ print("O valor comum de NUM é.: ", num, '\n')
 my_fun()
 print("O valor da variavel apenas dentro da função NUM é.: ", num, '\n' )
 
-
 # Impressão da variavel
 print("O valor de NUM agora sendo global e sobrepondo é.: ", num, '\n')
