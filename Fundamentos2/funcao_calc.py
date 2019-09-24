@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+""" Funções """
 
 def soma (n1, n2):
     print('A soma é.: ',n1+n2)
