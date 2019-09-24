@@ -15,7 +15,7 @@ cadastro()      # Chama a função 3 vezes, sem precisar digitar o codigo todo
 # variavel local
 
 
-def agenda(n):       # significa argumento
+def sequencia_fibonacci(n):       # significa argumento
     a, b = 0, 1
     while a < n:
         print(a, end=' ')
@@ -25,8 +25,9 @@ def agenda(n):       # significa argumento
 
 while True:
     m = int(input('Sequencia ate quanto?: '))
-    agenda(m)
+    sequencia_fibonacci(m)
     break
+    print('\n')
 
 
 # return
