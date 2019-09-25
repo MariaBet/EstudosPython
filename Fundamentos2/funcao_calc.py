@@ -60,9 +60,10 @@ while opera != 'e':
     elif opera == 'r':
         resto(n1, n2)
         print('\n')
-
+    if opera not in 'e':
+        print("Calculo Feito")
+        break
     elif opera == 'e':
         break
-
     else:
         print('Erro! Por favor digite uma opção valida na proxima execução')
