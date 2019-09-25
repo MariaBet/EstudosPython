@@ -20,7 +20,7 @@ def divisao(n1, n2):
     print('A divisao é.: ', n1 / n2)
 
 def resto(n1, n2):
-    print('O resto da divisão não esta ok é.: ', n1 % n2)
+    print('O resto da divisão é.: ', n1 % n2)
 
 
 """ Menu """
