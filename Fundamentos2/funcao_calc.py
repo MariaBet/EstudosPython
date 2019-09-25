@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """ Funções """
-print('A soma é.: ', n1 + n2)
+def soma(n1, n2):
+    print('A soma é.: ', n1 + n2)
 
 def subtracao(n1, n2):
     print('A subtração é.: ', n1 - n2)
