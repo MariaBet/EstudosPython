@@ -34,9 +34,10 @@ while opera != 'e':
     r p/ Resto da divisao
     e p/ encerrar
     \n''')
+    if opera == 'e':
+        print("Encerrado")
+        break
 
-
-    """ Inputs """
     n1 = int(input('Digite o primeiro valor.: '))
     n2 = int(input('Digite o segundo valor.: '))
 
@@ -61,9 +62,6 @@ while opera != 'e':
         resto(n1, n2)
         print('\n')
 
-    elif opera == 'e':
-        print("Encerrado")
-        break
     if opera not in 'e':
         print("Calculo Feito")
         break
