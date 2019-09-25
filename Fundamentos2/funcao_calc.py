@@ -2,14 +2,19 @@
 # -*- coding: utf-8 -*-
 
 """ Funções """
+
+
 def soma(n1, n2):
     print('A soma é.: ', n1 + n2)
+
 
 def subtracao(n1, n2):
     print('A subtração é.: ', n1 - n2)
 
+
 def multiplicacao(n1, n2):
     print('A multiplicação é.: ', n1 * n2)
+
 
 def divisao(n1, n2):
     print('A divisao é.: ', n1 / n2)
@@ -56,11 +61,11 @@ while opera != 'e':
         resto(n1, n2)
         print('\n')
 
+    elif opera == 'e':
+        print("Encerrado")
+        break
     if opera not in 'e':
         print("Calculo Feito")
-        break
-
-    elif opera == 'e':
         break
 
     else:
