@@ -36,12 +36,17 @@ while opera != 'e':
     e p/ encerrar
     \n''')
 
+    # Condição que encerra o programa.
+    if opera == 'e':
+        print('Passando pelo break')
+        break
+
     """ Inputs """
     n1 = int(input('Digite o primeiro valor.: '))
     n2 = int(input('Digite o segundo valor.: '))
 
     """ Chamando as funções """
-    if opera == '+':
+    elif opera == '+':
         soma(n1, n2)
         print('\n')
 
