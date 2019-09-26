@@ -64,5 +64,6 @@ while opera != 'e':
         print("Calculo Feito")
         break
 
+    # ESTE ELSE AINDA NÃO ESTÁ FAZENDO SENTIDO. PRECISA SER AJUSTADO
     else:
         print('Erro! Por favor digite uma opção valida na proxima execução')
