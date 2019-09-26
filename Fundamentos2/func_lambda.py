@@ -32,3 +32,11 @@ print('Subtração.:',lab_subtracao(20,5),'\n')
 # Por exemplo, se vc tem uma função comum que usa a formula de equação do
 # 2º grau. Onde vc tem mais de uma operação na formula. Algo assim que eu
 # entendi rsrs.
+
+
+"""Função lambda chamando outra função comum"""
+# Chamando função dentro de outra função
+# Exemplo usando uma expressão simples
+# 23+50-2*5
+lamb_exp = lambda: subtracao(soma(23,50),(2*5))
+print('O resultado da expressão 23+50-2*5 é.:',lamb_exp())
