@@ -2,25 +2,20 @@
 # -*- coding: utf-8 -*-
 
 """ Funções """
-
-
 def soma(n1, n2):
-    print('A soma é.: ', n1 + n2)
-
+    return n1+n2
 
 def subtracao(n1, n2):
-    print('A subtração é.: ', n1 - n2)
-
+    return n1-n2
 
 def multiplicacao(n1, n2):
-    print('A multiplicação é.: ', n1 * n2)
-
+    return n1*n2
 
 def divisao(n1, n2):
-    print('A divisao é.: ', n1 / n2)
+    return n1/n2
 
 def resto(n1, n2):
-    print('O resto da divisão é.: ', n1 % n2)
+    return n1%n2
 
 
 """ Menu """
@@ -32,8 +27,11 @@ while opera != 'e':
     / p/ Divisão
     * p/ Multiplicacao
     r p/ Resto da divisao
-    e p/ encerrar
+    e p/ encerrar programa
     \n''')
+
+    # Se a opção escolhida for E, o programa encerra
+    # sem passar pelos inputs de valores
     if opera == 'e':
         print("Encerrado")
         break
@@ -43,23 +41,23 @@ while opera != 'e':
 
     """ Chamando as funções """
     if opera == '+':
-        soma(n1, n2)
+        print('A soma dos valores é.: ',soma(n1, n2))
         print('\n')
 
     elif opera == '-':
-        subtracao(n1, n2)
+        print('A subtração dos valores é.: ',subtracao(n1, n2))
         print('\n')
 
     elif opera == '*':
-        multiplicacao(n1, n2)
+        print('A multiplicação dos valores é.: ',multiplicacao(n1, n2))
         print('\n')
 
     elif opera == '/':
-        divisao(n1, n2)
+        print('A divisão dos valores é.: ',divisao(n1, n2))
         print('\n')
 
     elif opera == 'r':
-        resto(n1, n2)
+        print('O resto da divisão dos valores é.: ',resto(n1, n2))
         print('\n')
 
     if opera not in 'e':
