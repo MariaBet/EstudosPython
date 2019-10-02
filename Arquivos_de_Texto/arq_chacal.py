@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
+=======
 
 # Abrindo arquivo
 # (r)-Leitura / (w)-Escrita
@@ -22,3 +24,4 @@ arquivo = open('lista_chacal.txt', 'r')
 # Lendo o conteudo de um arquivo
 # função read() = EX.: arquivo.read()
 print(arquivo.read())
+>>>>>>> 8fe6e93b88f38acc384c03a64a6a88830f0bba58
