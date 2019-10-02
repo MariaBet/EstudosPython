@@ -1,4 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-arquivo = open('lista_be.txt', 'w')
-arquivo.write('Apresentação do arquivo' '\n')
+
+# Abrindo arquivo
+# (r)-Leitura / (w)-Escrita
+# Senão especificar, o modo (r) sera usado
+arquivo = open('lista_chacal.txt', 'w')
+
+# Lendo o conteudo de um arquivo
+arquivo.read()
