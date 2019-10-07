@@ -9,12 +9,16 @@
 arquivo = open('lista_chacal.txt', 'w')
 
 # Escrevendo no arquivo
-arquivo.write(input('Digite o nome do filme ou serie.: '))
-
+conteudo = '0'
+while conteudo != 'fim':
+    conteudo = input('Digite o nome de um filme ou serie.: ')
+    if conteudo == 'fim':
+        break
+    arquivo.write(conteudo)
+    arquivo.write('\n')
 
 # Fechando arquivo p/ salvar
 arquivo.close()
-
 
 
 # Abrindo arquivo modo leitura
