@@ -4,6 +4,7 @@
 """Importação de modulos"""
 import os
 import sys
+import time
 
 # Obtendo informações do que os modulos possuem
 print('Informações do modulo OS.:\n',dir(os),'\n\n\n')
@@ -14,7 +15,11 @@ print('O que é a função platform do modulo sys.:\n',dir(sys.platform),'\n\n\n
 so = sys.platform
 print('O Sistema Operacional atual é.:',so,'\n\n\n\n')
 
-
+# Usando o modulo time, função sleep para ele parar durante 5 segundos
+# Depois deste tempo, continua a execução do codigo abaixo do comando
+time.sleep(5)
+# Limpar a tela, usando modulo OS, função system com comando clear do linux
+os.system('clear')
 
 ### AQUI COMEÇA O PROGRAMA DE FATO
 
@@ -89,6 +94,7 @@ def adicionar():
 
         # Fechando arquivo p/ salvar
         arquivo.close()
+        print('Filme adicionado com sucesso!')
         main()
 
     else:
@@ -107,6 +113,8 @@ def adicionar():
 
             # Fechando arquivo p/ salvar
             arquivo.close()
+            print('Filme adicionado com sucesso!')
+            main()
 
 
 """"Função Excluir Lista"""
@@ -119,6 +127,7 @@ def excluir():
 
         # Usado o metodo del(lista[conteudo]) para remover um item da lista
         del(filmes[remover])
+        print('Filme excluido com sucesso!')
         ver()
 
     main()
