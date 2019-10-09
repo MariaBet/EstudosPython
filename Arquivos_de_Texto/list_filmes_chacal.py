@@ -17,7 +17,7 @@ print('O Sistema Operacional atual é.:',so,'\n\n\n\n')
 
 # Usando o modulo time, função sleep para ele parar durante 5 segundos
 # Depois deste tempo, continua a execução do codigo abaixo do comando
-time.sleep(5)
+time.sleep(3)
 # Limpar a tela, usando modulo OS, função system com comando clear do linux
 os.system('clear')
 
@@ -53,6 +53,7 @@ def main():
             print('Opcao inválida')
 
 
+
 """"Função Visualizar Lista"""
 def ver():
     # Usado a função path.isfile do modulo OS, para verificar
@@ -66,12 +67,9 @@ def ver():
         arquivo = open('filmes_chacal.txt', 'r')
         # Lendo o conteudo do arquivo com a função read
         print(arquivo.read())
-        # Chamando o menu principal novamente
-        main()
 
     else:
         print('A lista de filmes não existe, volte ao menu e escolha outra opção')
-        main()
 
 
 """"Função Adicionar Lista"""
@@ -91,13 +89,12 @@ def adicionar():
             conteudo = input('Digite o nome de um filme.: ')
             if conteudo == 'fim':
                 break
-            arquivo.write(conteudo + '\n')
+            arquivo.write(conteudo)
             arquivo.write('\n')
 
         # Fechando arquivo p/ salvar
         arquivo.close()
         print('Filme adicionado com sucesso!')
-        main()
 
     else:
         print('A lista de filmes não existe, adicione novos filmes e uma lista'
@@ -116,7 +113,6 @@ def adicionar():
             # Fechando arquivo p/ salvar
             arquivo.close()
             print('Filme adicionado com sucesso!')
-            main()
 
 
 """"Função Excluir Lista"""
@@ -130,8 +126,6 @@ def excluir():
         # Usado o metodo del(lista[conteudo]) para remover um item da lista
         del(filmes[remover])
         print('Filme excluido com sucesso!')
-        ver()
 
-    main()
 
 main()
