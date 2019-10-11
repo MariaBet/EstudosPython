@@ -58,8 +58,7 @@ def main():
 def ver():
     # Usado a função path.isfile do modulo OS, para verificar
     # a existencia do arquivo de lista
-    if os.path.isfile('/home/eduardo/github/EstudosPython/Arquivos_de_Texto/'
-                        'filmes_chacal.txt') == True:
+    if os.path.isfile('filmes_chacal.txt') == True:
 
         print('Lista de filmes existente\n')
 
@@ -74,8 +73,8 @@ def ver():
 
 """"Função Adicionar Lista"""
 def adicionar():
-    if os.path.isfile('/home/eduardo/github/EstudosPython/Arquivos_de_Texto/'
-                        'filmes_chacal.txt') == True:
+    if os.path.isfile('filmes_chacal.txt') == True:
+
         print('Lista de filmes existente\n')
 
         # Abrir arquivo no modo append (a)
@@ -117,8 +116,7 @@ def adicionar():
 
 """"Função Excluir Lista"""
 def excluir():
-    if os.path.isfile('/home/eduardo/github/EstudosPython/Arquivos_de_Texto/'
-                        'filmes_chacal.txt') == True:
+    if os.path.isfile('filmes_chacal.txt') == True:
 
         ver()
         remover = input('Digite o nome do filme p/ excluir da lista.: ')
