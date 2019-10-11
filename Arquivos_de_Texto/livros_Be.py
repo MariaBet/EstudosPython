@@ -14,7 +14,7 @@ def main():
         print('Escolha uma das opções abaixo\n')
         print('1 - Ver a lista')
         print('2 - Adicionar livros na lista')
-        print('3 - Excluir filmes na lista')
+        print('3 - Excluir Livros na lista')
         print('0  - Sair\n')
 
         opcao = input('Entre com o número da opção: ')
