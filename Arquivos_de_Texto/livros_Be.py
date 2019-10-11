@@ -49,6 +49,7 @@ def ver():
 
 def adicionar():
     livros = []
+
     opcao = 'a'
     arq = existe()
 
@@ -64,6 +65,7 @@ def adicionar():
         if livros != '0':
             break
     arq.write(livro)
+    arq.write('\n')
 
     arq.close()
     print('Livro Maravilhoso')
