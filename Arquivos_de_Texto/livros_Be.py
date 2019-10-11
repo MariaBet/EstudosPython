@@ -39,9 +39,9 @@ def existe():
 
 def ver():
     arq = existe()
-    #if not arq:
-    #    input("O arquivo listasdeLivros.txt ainda não foi criado, tecle enter para continuar")
-    #    return
+    if not arq:
+        input("O arquivo listasdeLivros.txt ainda não foi criado, tecle enter para continuar")
+        return
     print("Lista de Livros: ")
     print("Tecle enter " '\n')
     arq = open('listasdeLivros.txt', 'r')
