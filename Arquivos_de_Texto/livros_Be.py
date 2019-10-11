@@ -15,7 +15,7 @@ def main():
         print('1 - Ver a lista')
         print('2 - Adicionar livros na lista')
         print('3 - Excluir Livros na lista')
-        print('0  - Sair\n')
+        print('0 - Sair\n')
 
         opcao = input('Entre com o número da opção: ')
         print()
@@ -23,7 +23,7 @@ def main():
         if (opcao == '1'):
             ver()
         elif (opcao == '2'):
-            adcionar()
+            adicionar()
         elif (opcao == '0'):
             sys.exit(0)
         else:
@@ -31,8 +31,8 @@ def main():
 
 
 def existe():
-    if os.path.isfile('TestesPython/listadeLivros.txt'):
-        return 'TestesPython/listasdeLivros.txt'
+    if os.path.isfile('listadeLivros.txt'):
+        return 'listasdeLivros.txt'
     else:
         return ' '
 
@@ -42,4 +42,32 @@ def ver():
     if not arq:
         input("O arquivo listasdeLivros.txt ainda não foi criado, tecle enter para continuar")
         return
+    print("Lista de Livros: ")
+    print("Tecle enter " '\n')
+    arq = open('listasdeLivros.txt' 'r')
+    livros = arq.readlines()
+
+def adicionar():
+    livros = []
+    opcao = 'a'
+    arq = existe()
+
+    if not arq:
+        opcao = "w"
+
+
+    print("Digite o nome do Livro e fim para sair: ")
+    arq = open('listadeLivros.txt', 'a')
+    livros = 0
+    while True:
+        livro = input()
+        if livros != '0':
+            break
+    arq.write(livro)
+
+    arq.close()
+    print('Livro Maravilhoso')
+
+
+
 main()
