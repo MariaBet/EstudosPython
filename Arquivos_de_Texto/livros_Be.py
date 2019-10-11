@@ -43,9 +43,8 @@ def ver():
         input("O arquivo listasdeLivros.txt ainda não foi criado, tecle enter para continuar")
         return
     print("Lista de Livros: ")
-    print("Tecle enter " '\n')
-    arq = open('listasdeLivros.txt', 'r')
-    livros = arq.readlines()
+    arq = open('listadeLivros.txt', 'r')
+    print(arq.read())
 
 def adicionar():
     livros = []
