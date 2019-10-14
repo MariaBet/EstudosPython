@@ -6,21 +6,6 @@ import os
 import sys
 import time
 
-# Obtendo informações do que os modulos possuem
-print('Informações do modulo OS.:\n',dir(os),'\n\n\n')
-print('Informações do modulo SYS.:\n',dir(sys),'\n\n\n')
-print('O que é a função platform do modulo sys.:\n',dir(sys.platform),'\n\n\n')
-
-# Pega qual é o SO
-so = sys.platform
-print('O Sistema Operacional atual é.:',so,'\n\n\n\n')
-
-# Usando o modulo time, função sleep para ele parar durante 5 segundos
-# Depois deste tempo, continua a execução do codigo abaixo do comando
-time.sleep(3)
-# Limpar a tela, usando modulo OS, função system com comando clear do linux
-os.system('clear')
-
 ### AQUI COMEÇA O PROGRAMA DE FATO
 ### AGUARDE 5 SEGUNDOS APOS A EXECUÇÃO DO PROGRAMA, PARA QUE SEJA
 ### REALIZADO UM CLEAR NA TELA
@@ -106,7 +91,7 @@ def adicionar():
             conteudo = input('Digite o nome de um filme.: ')
             if conteudo == 'fim':
                 break
-            arquivo.write(conteudo)
+
             arquivo.write('\n')
 
             # Fechando arquivo p/ salvar
@@ -118,13 +103,18 @@ def adicionar():
 def excluir():
     if os.path.isfile('filmes_chacal.txt') == True:
 
-        ver()
-        remover = input('Digite o nome do filme p/ excluir da lista.: ')
+        remover = str(input('Digite o nome do filme p/ excluir da lista.: '))
+        arquivo = open('filmes_chacal.txt', 'r')
 
-        # Usado o metodo del(lista[conteudo]) para remover um item da lista
-        del(filmes[remover])
-        print('Filme excluido com sucesso!')
+        for itens in arquivo:
 
+            if itens == remover:
+                print('É Igual')
+            else:
+                print('É Diferente')
+
+        arquivo.close()
+        #print('Filme excluido com sucesso!')
 
 main()
 
