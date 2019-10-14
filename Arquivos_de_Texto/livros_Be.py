@@ -14,7 +14,7 @@ def main():
         print('Escolha uma das opções abaixo\n')
         print('1 - Ver a lista')
         print('2 - Adicionar livros na lista')
-        print('3 - Excluir Livros na lista')
+        print('3 - Excluir Livros da lista')
         print('0 - Sair\n')
 
         opcao = input('Entre com o número da opção: ')
@@ -24,6 +24,8 @@ def main():
             ver()
         elif (opcao == '2'):
             adicionar()
+        elif (opcao == '3'):
+            excluir()
         elif (opcao == '0'):
             sys.exit(0)
         else:
@@ -56,7 +58,7 @@ def adicionar():
         opcao = "w"
 
 
-    print("Digite o nome do Livro e fim para sair: ")
+    print("Digite o nome do Livro e 0 para sair: ")
     arq = open('listadeLivros.txt', 'a')
     livros = 0
     while True:
@@ -68,6 +70,13 @@ def adicionar():
 
     arq.close()
     print('Livro Maravilhoso')
+
+def excluir():
+    arq = existe()
+    ver()
+    excluir = input("Qual livro você quer excluir da sua lista? " )
+    del([excluir])
+    print("Livro excluído da sua lista")
 
 
 main()
