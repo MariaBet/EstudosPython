@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# Importar modulo CSV
+# Importar modulo pandas
 import pandas
-
 
 # Carrega dados
 arquivo = pandas.read_csv('dados.csv')
