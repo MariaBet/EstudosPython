@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import pandas
+import pandas as pd
 
-df = pandas.read_csv('dados.csv')
-print(df.loc[176:200,'Funcionário': 'Mês'])
+df = pd.read_csv('dados.csv')
+print(df.loc[160:179,'Funcionário': 'Mês'])
