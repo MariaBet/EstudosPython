@@ -24,10 +24,14 @@ print('\n')
 
 
 
+'''raise usado para gerar uma exceção, serve como um alerta para definir que tipo
+de erro vai gerar e o texto a ser impresso!'''
 
 c = "chacal"
 if not type(c) is int:
     raise TypeError("somente numeros interios")
+
+
 
 '''sem o try e o Exception o codigo gerará um erro'''
 print(n)
