@@ -14,6 +14,7 @@ while iniciar == True:
         if type(num) is int and num != 0:
             soma.append(num)
             print('\nLista de valores:',soma)
+            # Usando a função sum para somar os elementos
             print('Total.:',sum(soma))
 
         else:
