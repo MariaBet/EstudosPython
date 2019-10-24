@@ -1,12 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import sys
+idade = 65
+if idade < 18:
+    print(17)
+elif idade < 60:
+    print(idade)
+else:
+    print(65)
 
-def (main):
-    pass
-
-n = 10
-
-if in n:
-    
