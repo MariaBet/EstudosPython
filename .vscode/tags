@@ -1,0 +1,218 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+B	../Fundamentos/Operadores_logicos_aritimeticos.py	/^B = 28$/;"	kind:variable	line:29
+B	../Fundamentos/Operadores_logicos_aritimeticos.py	/^B = 28$/;"	kind:variable	line:33
+Conversao_tipos_de_dados.py	../Fundamentos/Conversao_tipos_de_dados.py	1;"	kind:file	line:1
+Dicionario.py	../Fundamentos/Dicionario.py	1;"	kind:file	line:1
+E	../Fundamentos/Operadores_logicos_aritimeticos.py	/^E = 33$/;"	kind:variable	line:28
+E	../Fundamentos/Operadores_logicos_aritimeticos.py	/^E = 33$/;"	kind:variable	line:32
+Floresta	../Fundamentos/Dicionario.py	/^Floresta = input("Digite no dicionario: ")$/;"	kind:variable	line:11
+Floresta	../Fundamentos/Dicionario.py	/^Floresta = {$/;"	kind:variable	line:13
+Listas.py	../Fundamentos/Listas.py	1;"	kind:file	line:1
+Matplotlib_Be.py	../Arquivos_CSV/Matplotlib_Be.py	1;"	kind:file	line:1
+Matplotlib_Chacal.py	../Arquivos_CSV/Matplotlib_Chacal.py	1;"	kind:file	line:1
+Operadores_logicos_aritimeticos.py	../Fundamentos/Operadores_logicos_aritimeticos.py	1;"	kind:file	line:1
+Tipos_de_Dados.py	../Fundamentos/Tipos_de_Dados.py	1;"	kind:file	line:1
+Tuplas.py	../Fundamentos/Tuplas.py	1;"	kind:file	line:1
+adicionar	../Arquivos_de_Texto/list_filmes_chacal.py	/^def adicionar():$/;"	kind:function	line:60
+adicionar	../Arquivos_de_Texto/livros_Be.py	/^def adicionar():$/;"	kind:function	line:51
+animais	../Fundamentos/listas1.py	/^animais = [];$/;"	kind:variable	line:35
+arq_Be.py	../Arquivos_de_Texto/arq_Be.py	1;"	kind:file	line:1
+arq_chacal.py	../Arquivos_de_Texto/arq_chacal.py	1;"	kind:file	line:1
+arq_csv_Be.py	../Arquivos_CSV/arq_csv_Be.py	1;"	kind:file	line:1
+arq_csv_Chacal.py	../Arquivos_CSV/arq_csv_Chacal.py	1;"	kind:file	line:1
+arquivo	../Arquivos_CSV/arq_csv_Chacal.py	/^arquivo = pandas.read_csv('dados.csv')$/;"	kind:variable	line:8
+arquivo	../Arquivos_de_Texto/arq_Be.py	/^arquivo = open('lista_be.txt', 'w')$/;"	kind:variable	line:4
+arquivo	../Arquivos_de_Texto/arq_chacal.py	/^arquivo = open('lista_chacal.txt', 'r')$/;"	kind:variable	line:25
+arquivo	../Arquivos_de_Texto/arq_chacal.py	/^arquivo = open('lista_chacal.txt', 'w')$/;"	kind:variable	line:9
+arquivo	../Arquivos_de_Texto/loop_be.py	/^arquivo = open("lista_be.txt", "r")$/;"	kind:variable	line:4
+break.py	../Fundamentos2/break.py	1;"	kind:file	line:1
+c	../Fundamentos/Operadores_logicos_aritimeticos.py	/^c = 33$/;"	kind:variable	line:37
+c	../erros_excecoes/try_be.py	/^c = "chacal"$/;"	kind:variable	line:30
+cadastro	../Fundamentos2/funcao.py	/^def cadastro():$/;"	kind:function	line:5
+carro	../Fundamentos/strings.py	/^carro = "Mustang"$/;"	kind:variable	line:24
+carros	../Fundamentos/Listas.py	/^carros=['ferrari','uno','gol','palio','jeep','troller']$/;"	kind:variable	line:5
+carros	../Fundamentos/lista3_carros.py	/^carros = []$/;"	kind:variable	line:4
+carros	../Fundamentos2/loop_for.py	/^carros = ['Fox','Ferrari','Fusca','Mercedes']$/;"	kind:variable	line:5
+chave	../Fundamentos/Dicionario.py	/^    chave = input("Digite uma categoria: ")$/;"	kind:variable	line:38
+chave	../Fundamentos/Dicionario.py	/^chave = input("Digite uma categoria: ")$/;"	kind:variable	line:25
+chave	../Fundamentos/dicionario_contatos.py	/^    chave = input("Digite um nome para dicionario: ")$/;"	kind:variable	line:24
+chave	../Fundamentos/dicionario_contatos.py	/^chave = input("Digite um nome para dicionario: ")$/;"	kind:variable	line:10
+cheeseshop	../Fundamentos2/pass.py	/^def cheeseshop(kind, *arguments, **keywords):$/;"	kind:function	line:7
+codigoteste.py	../Fundamentos/codigoteste.py	1;"	kind:file	line:1
+comparacao	../Fundamentos/exemploBolean2.py	/^comparacao = n1 < n2$/;"	kind:variable	line:8
+comparacao	../Fundamentos/exemploBolean2.py	/^comparacao = n1 > n2$/;"	kind:variable	line:27
+compras	../Fundamentos2/lista_compras_continue.py	/^compras = ['arroz', 'feijao', 'macarrao', 'acucar', 'cafe', 'azeitona','\\n'$/;"	kind:variable	line:3
+computador	../Fundamentos/Tuplas.py	/^computador=('mouse','teclado','cpu','monitor','impressora','caixa de som')$/;"	kind:variable	line:14
+contatos	../Fundamentos/dicionario_contatos.py	/^contatos = {}$/;"	kind:variable	line:7
+conteudo	../Arquivos_de_Texto/arq_chacal.py	/^    conteudo = input('Digite o nome de um filme ou serie.: ')$/;"	kind:variable	line:14
+conteudo	../Arquivos_de_Texto/arq_chacal.py	/^conteudo = '0'$/;"	kind:variable	line:12
+continue.py	../Fundamentos2/continue.py	1;"	kind:file	line:1
+convidados	../Fundamentos/Listas.py	/^convidados = []       # lista vazia$/;"	kind:variable	line:22
+df	../Arquivos_CSV/arq_csv_Be.py	/^df = pd.read_csv('dados.csv')$/;"	kind:variable	line:5
+dicionario_contatos.py	../Fundamentos/dicionario_contatos.py	1;"	kind:file	line:1
+diversos	../Fundamentos/listas1.py	/^diversos = ["Chacal", 10, 3.2, "Betania"]$/;"	kind:variable	line:14
+divisao	../Fundamentos2/funcao_calc.py	/^def divisao(n1, n2):$/;"	kind:function	line:14
+dobro	../Fundamentos2/map_be.py	/^dobro = list(map(lambda x: x * 2, itens,))$/;"	kind:variable	line:22
+excl	../Fundamentos/strings.py	/^excl = "!"$/;"	kind:variable	line:11
+excluir	../Arquivos_de_Texto/list_filmes_chacal.py	/^def excluir():$/;"	kind:function	line:103
+excluir	../Arquivos_de_Texto/livros_Be.py	/^def excluir():$/;"	kind:function	line:74
+excluir	../Fundamentos/Dicionario.py	/^excluir = input("Digite o nome de um elemento para excluir: ")$/;"	kind:variable	line:47
+exemploBolean2.py	../Fundamentos/exemploBolean2.py	1;"	kind:file	line:1
+existe	../Arquivos_de_Texto/livros_Be.py	/^def existe():$/;"	kind:function	line:35
+floresta	../Fundamentos/Operadores_logicos_aritimeticos.py	/^floresta = ("Cerrado", "Caatinga", "Campo")$/;"	kind:variable	line:46
+flutuante	../Fundamentos/Conversao_tipos_de_dados.py	/^flutuante = 3.5$/;"	kind:variable	line:19
+ford	../Fundamentos/strings.py	/^ford = "mustang"$/;"	kind:variable	line:29
+fruits	../Fundamentos2/loop_for_continue.py	/^fruits = ["apple", "banana", "cherry"]$/;"	kind:variable	line:4
+fruta	../Fundamentos/strings.py	/^fruta = "morango"$/;"	kind:variable	line:5
+fun_var_global.py	../Fundamentos2/fun_var_global.py	1;"	kind:file	line:1
+func_lambda.py	../Fundamentos2/func_lambda.py	1;"	kind:file	line:1
+funcao.py	../Fundamentos2/funcao.py	1;"	kind:file	line:1
+funcao_calc.py	../Fundamentos2/funcao_calc.py	1;"	kind:file	line:1
+funcaolambda_be.py	../Fundamentos2/funcaolambda_be.py	1;"	kind:file	line:1
+fusao	../Fundamentos/listas1.py	/^fusao = nomes + diversos + linux$/;"	kind:variable	line:26
+idade	../Fundamentos/indentacao.py	/^idade = 65$/;"	kind:variable	line:1
+idade	../Fundamentos2/tomada_de_decisao.py	/^idade = int(input("Qual a sua idade?: "))$/;"	kind:variable	line:10
+if_elif_else.py	../Fundamentos/if_elif_else.py	1;"	kind:file	line:1
+if_elif_else.py	../Fundamentos2/if_elif_else.py	1;"	kind:file	line:1
+import.py	../Fundamentos2/import.py	1;"	kind:file	line:1
+import_chacal.py	../Fundamentos2/import_chacal.py	1;"	kind:file	line:1
+indentacao.py	../Fundamentos/indentacao.py	1;"	kind:file	line:1
+iniciar	../erros_excecoes/try_chacal2.py	/^            iniciar = False$/;"	kind:variable	line:23
+iniciar	../erros_excecoes/try_chacal2.py	/^iniciar = True$/;"	kind:variable	line:8
+inteiro	../Fundamentos/Conversao_tipos_de_dados.py	/^inteiro = 10$/;"	kind:variable	line:18
+itens	../Fundamentos2/map_be.py	/^itens = [1, 2, 3, 4, 5, 6, 7, 8]$/;"	kind:variable	line:21
+keyword	../Fundamentos/keywords.py	/^import keyword$/;"	kind:namespace	line:1
+keywords.py	../Fundamentos/keywords.py	1;"	kind:file	line:1
+lab_soma	../Fundamentos2/func_lambda.py	/^lab_soma = lambda num1,num2 : num1+num2$/;"	kind:variable	line:13
+lab_subtracao	../Fundamentos2/func_lambda.py	/^lab_subtracao = lambda num1,num2 : num1-num2$/;"	kind:variable	line:14
+lamb_exp	../Fundamentos2/func_lambda.py	/^lamb_exp = lambda: subtracao(soma(23,50),(2*5))$/;"	kind:variable	line:41
+linux	../Fundamentos/listas1.py	/^linux = ['redhat', 'centos', 'debian', 'fedora', 'opensuse', 'arch']$/;"	kind:variable	line:21
+list_filmes_chacal.py	../Arquivos_de_Texto/list_filmes_chacal.py	1;"	kind:file	line:1
+lista	../Fundamentos2/map_be.py	/^lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 100, 99, 88, 66, 56, 78, 12, 4, 2, 3]$/;"	kind:variable	line:29
+lista3_carros.py	../Fundamentos/lista3_carros.py	1;"	kind:file	line:1
+lista_compras_continue.py	../Fundamentos2/lista_compras_continue.py	1;"	kind:file	line:1
+listas1.py	../Fundamentos/listas1.py	1;"	kind:file	line:1
+livros_Be.py	../Arquivos_de_Texto/livros_Be.py	1;"	kind:file	line:1
+loop_be.py	../Arquivos_de_Texto/loop_be.py	1;"	kind:file	line:1
+loop_for.py	../Fundamentos2/loop_for.py	1;"	kind:file	line:1
+loop_for2	../Fundamentos2/import.py	/^import loop_for2$/;"	kind:namespace	line:3
+loop_for2.py	../Fundamentos2/loop_for2.py	1;"	kind:file	line:1
+loop_for_continue.py	../Fundamentos2/loop_for_continue.py	1;"	kind:file	line:1
+m	../Fundamentos/Operadores_logicos_aritimeticos.py	/^m = 12$/;"	kind:variable	line:20
+main	../Arquivos_de_Texto/list_filmes_chacal.py	/^def main():$/;"	kind:function	line:17
+main	../Arquivos_de_Texto/livros_Be.py	/^def main():$/;"	kind:function	line:8
+map_be.py	../Fundamentos2/map_be.py	1;"	kind:file	line:1
+math	../Fundamentos2/import_chacal.py	/^import math$/;"	kind:namespace	line:5
+matplotlib	../Arquivos_CSV/Matplotlib_Be.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+matplotlib	../Arquivos_CSV/Matplotlib_Chacal.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:9
+meses	../Arquivos_CSV/Matplotlib_Chacal.py	/^meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho']$/;"	kind:variable	line:15
+minha_floresta	../Fundamentos2/new_funcao.py	/^def minha_floresta(Arvores, Passaros):$/;"	kind:function	line:5
+modelo	../Fundamentos/Tuplas.py	/^modelo = ('Dell', 'Samsung', 'Itautec', 'Lenovo', 'Positivo')$/;"	kind:variable	line:18
+multiplicacao	../Fundamentos2/funcao_calc.py	/^def multiplicacao(n1, n2):$/;"	kind:function	line:11
+my_fun	../Fundamentos2/fun_var_global.py	/^def my_fun():$/;"	kind:function	line:11
+n	../Fundamentos/Operadores_logicos_aritimeticos.py	/^n = 10$/;"	kind:variable	line:17
+n1	../Fundamentos/exemploBolean2.py	/^n1 = 28$/;"	kind:variable	line:11
+n1	../Fundamentos/exemploBolean2.py	/^n1 = 28$/;"	kind:variable	line:18
+n1	../Fundamentos/exemploBolean2.py	/^n1 = 28$/;"	kind:variable	line:24
+n1	../Fundamentos/exemploBolean2.py	/^n1 = 28$/;"	kind:variable	line:5
+n1	../Fundamentos/var_boolean_1.py	/^n1 = float(input('Digite a nota da prova: '))$/;"	kind:variable	line:5
+n1	../Fundamentos2/funcaolambda_be.py	/^n1 = int(input("Digite um valor: "))$/;"	kind:variable	line:4
+n1	../erros_excecoes/try_chacal.py	/^    n1 = float(input('Primeiro valor flutuante.: '))$/;"	kind:variable	line:27
+n1	../erros_excecoes/try_chacal.py	/^    n1 = int(input('Primeiro valor inteiro.: '))$/;"	kind:variable	line:21
+n2	../Fundamentos/exemploBolean2.py	/^n2 = 34$/;"	kind:variable	line:12
+n2	../Fundamentos/exemploBolean2.py	/^n2 = 34$/;"	kind:variable	line:19
+n2	../Fundamentos/exemploBolean2.py	/^n2 = 34$/;"	kind:variable	line:25
+n2	../Fundamentos/exemploBolean2.py	/^n2 = 34$/;"	kind:variable	line:6
+n2	../Fundamentos/var_boolean_1.py	/^n2 = float(input('Digite a nota do trabalho: '))$/;"	kind:variable	line:6
+n2	../Fundamentos2/funcaolambda_be.py	/^n2 = int(input("Digite um valor: "))$/;"	kind:variable	line:5
+n2	../erros_excecoes/try_chacal.py	/^    n2 = float(input('Segundo valor flutuante.: '))$/;"	kind:variable	line:28
+n2	../erros_excecoes/try_chacal.py	/^    n2 = int(input('Segundo valor inteiro.: '))$/;"	kind:variable	line:22
+n3	../Fundamentos2/funcaolambda_be.py	/^n3 = int(input("Digite um valor: "))$/;"	kind:variable	line:6
+new_funcao.py	../Fundamentos2/new_funcao.py	1;"	kind:file	line:1
+nn	../Fundamentos/strings.py	/^nn = ss.capitalize()   # primeira letra maiusculo$/;"	kind:variable	line:20
+nome	../Fundamentos/lista3_carros.py	/^    nome = input("Digite o modelo do carro: ")$/;"	kind:variable	line:14
+nome	../Fundamentos/lista3_carros.py	/^nome = input("Digite o modelo do carro: ")$/;"	kind:variable	line:5
+nome	../Fundamentos2/import.py	/^nome = input("Qual o seu nome?: ")$/;"	kind:variable	line:5
+nomes	../Fundamentos/listas1.py	/^nomes = ["Eduardo", "Betania", "Lia", "Maria"];$/;"	kind:variable	line:5
+nota	../Fundamentos/if_elif_else.py	/^nota = (prova + trabalho) \/ 2$/;"	kind:variable	line:7
+nota	../Fundamentos/var_boolean_1.py	/^nota = n1 + n2$/;"	kind:variable	line:7
+nota	../Fundamentos2/if_elif_else.py	/^nota = (prova + trabalho) \/ 2$/;"	kind:variable	line:7
+np	../Arquivos_CSV/Matplotlib_Be.py	/^import numpy as np$/;"	kind:namespace	line:4
+num	../Fundamentos/variaveis_numericas.py	/^    num = int(input("Digite um numero inteiro e o [0 para terminar]: "))$/;"	kind:variable	line:12
+num	../Fundamentos/variaveis_numericas.py	/^num = int(input("Digite um numero inteiro e o [0 para terminar]: "))$/;"	kind:variable	line:7
+num	../Fundamentos2/fun_var_global.py	/^num = 10$/;"	kind:variable	line:8
+num	../Fundamentos2/import_chacal.py	/^num = int(input('Digite um numero.: '))$/;"	kind:variable	line:15
+num	../erros_excecoes/try_chacal2.py	/^        num = int(input('\\nDigite um valor ou 0 para finalizar.: '))$/;"	kind:variable	line:12
+numero_da_sorte	../Fundamentos2/loop_for2.py	/^    numero_da_sorte = int(input("Digite um numero da sorte: "))$/;"	kind:variable	line:12
+numero_da_sorte	../Fundamentos2/loop_for2.py	/^numero_da_sorte = 33$/;"	kind:variable	line:7
+numero_da_sorte	../Fundamentos2/while.py	/^    numero_da_sorte = int(input("Digite um numero da sorte: "))$/;"	kind:variable	line:12
+numero_da_sorte	../Fundamentos2/while.py	/^numero_da_sorte = 33$/;"	kind:variable	line:7
+numeros	../Fundamentos2/loop_for.py	/^numeros = [20,50,90,200,110]$/;"	kind:variable	line:6
+opera	../Fundamentos2/funcao_calc.py	/^opera = 0$/;"	kind:variable	line:22
+os	../Arquivos_de_Texto/list_filmes_chacal.py	/^import os$/;"	kind:namespace	line:5
+os	../Arquivos_de_Texto/livros_Be.py	/^import os$/;"	kind:namespace	line:4
+pandas	../Arquivos_CSV/arq_csv_Chacal.py	/^import pandas$/;"	kind:namespace	line:5
+pares	../Fundamentos2/map_be.py	/^pares = list(filter(lambda x: x % 2 == 0, lista))$/;"	kind:variable	line:30
+pass.py	../Fundamentos2/pass.py	1;"	kind:file	line:1
+pd	../Arquivos_CSV/arq_csv_Be.py	/^import pandas as pd$/;"	kind:namespace	line:3
+plt	../Arquivos_CSV/Matplotlib_Be.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:5
+print_convocados	../Fundamentos2/new_funcao.py	/^def print_convocados(*membros):$/;"	kind:function	line:21
+print_somente	../Fundamentos2/new_funcao.py	/^def print_somente(nome, idade):$/;"	kind:function	line:14
+prova	../Fundamentos/if_elif_else.py	/^prova = float(input('Digite a nota da prova.: '))$/;"	kind:variable	line:5
+prova	../Fundamentos2/if_elif_else.py	/^prova = float(input('Digite a nota da prova.: '))$/;"	kind:variable	line:5
+pyplot	../Arquivos_CSV/Matplotlib_Chacal.py	/^import matplotlib.pyplot$/;"	kind:namespace	line:9
+reduce	../Fundamentos2/map_be.py	/^from functools import reduce$/;"	kind:namespace	line:3
+resto	../Fundamentos2/funcao_calc.py	/^def resto(n1, n2):$/;"	kind:function	line:17
+s	../Fundamentos/strings.py	/^s = "python"$/;"	kind:variable	line:10
+sequencia_fibonacci	../Fundamentos2/funcao.py	/^def sequencia_fibonacci(n):       # significa argumento$/;"	kind:function	line:18
+soma	../Fundamentos/variaveis_numericas.py	/^    soma = soma + num$/;"	kind:variable	line:11
+soma	../Fundamentos/variaveis_numericas.py	/^soma = 0$/;"	kind:variable	line:8
+soma	../Fundamentos2/func_lambda.py	/^def soma(n1, n2):$/;"	kind:function	line:6
+soma	../Fundamentos2/funcao.py	/^def soma(b, e):$/;"	kind:function	line:34
+soma	../Fundamentos2/funcao_calc.py	/^def soma(n1, n2):$/;"	kind:function	line:5
+soma	../Fundamentos2/loop_for.py	/^soma = 0$/;"	kind:variable	line:9
+soma	../Fundamentos2/map_be.py	/^soma = reduce((lambda x, y: x + y), [1, 2, 3, 4])$/;"	kind:variable	line:6
+soma	../erros_excecoes/try_chacal2.py	/^soma = []$/;"	kind:variable	line:5
+ss	../Fundamentos/strings.py	/^ss = "Estudos, Python"$/;"	kind:variable	line:16
+strings.py	../Fundamentos/strings.py	1;"	kind:file	line:1
+subtracao	../Fundamentos2/func_lambda.py	/^def subtracao(n1, n2):$/;"	kind:function	line:9
+subtracao	../Fundamentos2/funcao_calc.py	/^def subtracao(n1, n2):$/;"	kind:function	line:8
+sys	../Arquivos_de_Texto/list_filmes_chacal.py	/^import sys$/;"	kind:namespace	line:6
+sys	../Arquivos_de_Texto/livros_Be.py	/^import sys$/;"	kind:namespace	line:5
+t	../Fundamentos/Operadores_logicos_aritimeticos.py	/^t = 20$/;"	kind:variable	line:23
+tentativa	../Fundamentos2/while.py	/^tentativa = 5$/;"	kind:variable	line:8
+tentativas	../Fundamentos2/loop_for2.py	/^tentativas = 5$/;"	kind:variable	line:8
+texto	../Fundamentos/Conversao_tipos_de_dados.py	/^texto = "2019"$/;"	kind:variable	line:20
+time	../Arquivos_de_Texto/list_filmes_chacal.py	/^import time$/;"	kind:namespace	line:7
+tipo	../Fundamentos/strings.py	/^tipo = "sorvete de "$/;"	kind:variable	line:6
+tomada_de_decisao.py	../Fundamentos2/tomada_de_decisao.py	1;"	kind:file	line:1
+trabalho	../Fundamentos/if_elif_else.py	/^trabalho = float(input('Digite a nota da prova.: '))$/;"	kind:variable	line:6
+trabalho	../Fundamentos2/if_elif_else.py	/^trabalho = float(input('Digite a nota da prova.: '))$/;"	kind:variable	line:6
+try_be.py	../erros_excecoes/try_be.py	1;"	kind:file	line:1
+try_chacal.py	../erros_excecoes/try_chacal.py	1;"	kind:file	line:1
+try_chacal2.py	../erros_excecoes/try_chacal2.py	1;"	kind:file	line:1
+tt	../Fundamentos/strings.py	/^tt = ss.lower()       # minusculo$/;"	kind:variable	line:18
+valor	../Fundamentos/Dicionario.py	/^    valor = input("Digite uma especie: ")$/;"	kind:variable	line:39
+valor	../Fundamentos/Dicionario.py	/^valor = input("Digite uma especie: ")$/;"	kind:variable	line:26
+valor	../Fundamentos/dicionario_contatos.py	/^    valor = input("Digite um numero de telefone para o dicionario: ")$/;"	kind:variable	line:25
+valor	../Fundamentos/dicionario_contatos.py	/^valor = input("Digite um numero de telefone para o dicionario: ")$/;"	kind:variable	line:11
+valor	../Fundamentos/variaveis_numericas2.py	/^valor = input('Digite um valor: ')$/;"	kind:variable	line:8
+valores	../Arquivos_CSV/Matplotlib_Chacal.py	/^valores = [105235, 107697, 110256, 109236, 108859, 109986]$/;"	kind:variable	line:16
+valores_expres	../Fundamentos2/funcaolambda_be.py	/^valores_expres = lambda: ((n1+n2)-(n2*n3))$/;"	kind:variable	line:8
+var_boolean_1.py	../Fundamentos/var_boolean_1.py	1;"	kind:file	line:1
+variaveis_numericas.py	../Fundamentos/variaveis_numericas.py	1;"	kind:file	line:1
+variaveis_numericas2.py	../Fundamentos/variaveis_numericas2.py	1;"	kind:file	line:1
+ver	../Arquivos_de_Texto/list_filmes_chacal.py	/^def ver():$/;"	kind:function	line:43
+ver	../Arquivos_de_Texto/livros_Be.py	/^def ver():$/;"	kind:function	line:42
+while.py	../Fundamentos2/while.py	1;"	kind:file	line:1
+x	../Arquivos_CSV/Matplotlib_Be.py	/^x = np.arange(0, 5, 0.1)$/;"	kind:variable	line:7
+x	../erros_excecoes/try_chacal.py	/^x = 12$/;"	kind:variable	line:6
+y	../Arquivos_CSV/Matplotlib_Be.py	/^y = np.sin(x)$/;"	kind:variable	line:8
+y	../Fundamentos/Operadores_logicos_aritimeticos.py	/^y = 9$/;"	kind:variable	line:40
+y	../erros_excecoes/try_chacal.py	/^y = 0$/;"	kind:variable	line:7
+z	../erros_excecoes/try_chacal.py	/^    z = x\/0$/;"	kind:variable	line:12
