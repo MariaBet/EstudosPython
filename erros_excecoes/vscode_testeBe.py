@@ -7,5 +7,5 @@ if idade < 18:
 elif idade < 60:
     print(idade)
 else:
-    print(65)
+    print(" A idade é ", 65)
 
