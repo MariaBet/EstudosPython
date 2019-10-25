@@ -35,3 +35,4 @@ if not type(c) is int:
 
 '''sem o try e o Exception o codigo gerará um erro'''
 print(n)
+print(b)
