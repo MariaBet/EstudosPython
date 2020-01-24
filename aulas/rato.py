@@ -2,10 +2,10 @@
 Exemplo de classe e objeto.
 Criado para rapidinha #7: https://youtu.be/SQXmC6PbZWk
 """
-
+"Molde para o rato."
 
 class Personagem:
-    """Molde para o rato."""
+
     def __init__(self, nome, cor):
         self.nome = nome
         self.cor = cor
