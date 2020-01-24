@@ -1,10 +1,10 @@
 
-nome = "Maria"
-idade = 28
-altura = 1.60
-peso = 43.50
+nome = "Flavia"
+idade = 38
+altura = 1.76
+peso = 79.36
 ano_atual = 2019
-nascimento = 1991
+nascimento = 1972
 imc = peso / (altura ** 2)
 
 print(f' {nome} tem {idade} anos, {altura} de altura.')
